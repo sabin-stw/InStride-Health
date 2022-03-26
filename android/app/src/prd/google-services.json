@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "242707161227",
+    "project_id": "instride-health",
+    "storage_bucket": "instride-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242707161227:android:c302164966903e2f5f348e",
+        "android_client_info": {
+          "package_name": "com.instride.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242707161227-flfftle3lo5rq3bpnbnvip26pngjcrr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqBylYfQIHm3oSWyLsC3Qj1MVRC4MPpbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242707161227-flfftle3lo5rq3bpnbnvip26pngjcrr1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "242707161227-5emjmqbv35dlt5b6k782gqsu91l4l5a0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.instride.health"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

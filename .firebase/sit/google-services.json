@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "62706022715",
+    "project_id": "instride-health-sit",
+    "storage_bucket": "instride-health-sit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62706022715:android:fffe2edbb2cab3c1521f1e",
+        "android_client_info": {
+          "package_name": "com.instride.health.sit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62706022715-u7r021c6sol9q5b02h9dt65tprp7ed9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_ZsCZfvuGXKGqXJ3k_-TBvVXM8yPg4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62706022715-u7r021c6sol9q5b02h9dt65tprp7ed9h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "62706022715-qv64cjpemoecl5hh4rtk5vm58k9na74d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.instride.health.sit"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
