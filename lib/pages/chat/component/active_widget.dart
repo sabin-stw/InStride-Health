@@ -13,8 +13,7 @@ class _ActiveWidgetState extends State<ActiveWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(10),
-      child: Expanded(
-        flex: 15,
+      child: SizedBox(
         child: ListView.builder(
             itemCount: 10,
             padding: const EdgeInsets.only(top: 8, bottom: 8),

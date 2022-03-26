@@ -18,10 +18,17 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   void initState() {
     super.initState();
+
+    // final page = isFirstTime
+    //     ? AppRoutes.onboard
+    //     : user != null
+    //         ? AppRoutes.dashboard
+    //         : AppRoutes.identity;
+
     Timer(
       const Duration(milliseconds: 500),
       () => Navigator.of(context)
-          .pushNamedAndRemoveUntil(AppRoutes.dashboard, (route) => false),
+          .pushNamedAndRemoveUntil(AppRoutes.onboard, (route) => false),
     );
   }
 

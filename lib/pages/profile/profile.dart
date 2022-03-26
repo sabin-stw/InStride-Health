@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../routes.dart';
+
 class ProfileDashboard extends StatefulWidget {
   const ProfileDashboard({Key? key}) : super(key: key);
 
@@ -321,10 +323,10 @@ class _ProfileDashboardState extends State<ProfileDashboard> {
 
                                     Navigator.of(context).pop();
 
-                                    // Navigator.of(context)
-                                    //     .pushNamedAndRemoveUntil(
-                                    //         AppRoutes.identity,
-                                    //         (route) => false);
+                                    Navigator.of(context)
+                                        .pushNamedAndRemoveUntil(
+                                            AppRoutes.identity,
+                                            (route) => false);
                                   },
                                 )
                               ],

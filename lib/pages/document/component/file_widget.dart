@@ -14,8 +14,7 @@ class _FileWidgetState extends State<FileWidget> {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(10),
-      child: Expanded(
-        flex: 15,
+      child: SizedBox(
         child: ListView.builder(
             itemCount: 2,
             padding: const EdgeInsets.only(top: 8, bottom: 8),
